@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,15 +17,13 @@
         <header>
             <!-- Navigation avec logo-->
             <nav>
-               <a href="#"><img src="/images/logo/Reservia.svg" alt="logos Reservia"></a>
-                
-               <ul>
-                   <li><a href="#">Hébergements</a></li>
-                   <li><a href="#">Activités</a></li>
-                   <li><a href="#">S'inscrire</a></li>
-               </ul>
+                <a href="#"><img src="/images/logo/Reservia.svg" alt="logos Reservia"></a>
+                <ul>
+                    <li><a class="nav-link" href="#">Hébergements</a></li>
+                    <li><a class="nav-link" href="#">Activités</a></li>
+                    <li><a class="nav-register" href="#">S'inscrire</a></li>
+                </ul>
             </nav>
-
 
             <section class="recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -32,64 +32,161 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <input type="text" placeholder="Marseille, France">
                     <button>Rechercher</button>
-                    
+
                 </div>
+
                 <div class="filtres">
                     <h2>Filtres</h2>
                     <button>
-                        <i></i>
-                        <span></span>
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>&Eacute;conomique</span>
                     </button>
                     <button>
-                        <i></i>
-                        <span></span>
+                        <i class="fas fa-child"></i>
+                        <span>Familial</span>
                     </button>
                     <button>
-                        <i></i>
-                        <span></span>
+                        <i class="fas fa-heart"></i>
+                        <span>Romantique</span>
                     </button>
                     <button>
-                        <i></i>
-                        <span></span>
+                        <i class="fas fa-dog"></i>
+                        <span>Animaux autorisés</span>
                     </button>
 
                 </div>
-
-
-
+                <div class="info">
+                    <i class="fas fa-info"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
             </section>
-
         </header>
 
         <main>
-            <div class="tourisme-a-marseille">tourisme-a-marseille</div>
-                <div class="hebergement-a-marseille">hebergement-a-marseille</div>
+
+            <div class="tourisme-a-marseille">
+                <div class="hebergement-a-marseille"> 
+
+                    <h2>Hébergements à Marseille</h2>
+
+                    <div class="hebergement-cartes">
+
+                        <div class="hebergement-carte-item">
+                            <a href="#">
+                                <img src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebiere">
+                                <div class="hebergement-carte-contenu">
+                                    <h3>Auberge de la Cannebiére</h3>
+                                    <p>Nuit à partir de <strong>25</strong>€</p>
+                                    <div class="note">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="hebergement-carte-item">
+                            <a href="#">
+                                <img src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebiere">
+                                <div class="hebergement-carte-contenu">
+                                    <h3>Auberge de la Cannebiére</h3>
+                                    <p>Nuit à partir de <strong>25</strong>€</p>
+                                    <div class="note">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <button class="affiche-plus" type="button">
+                        Afficher plus
+                    </button>
+
 
                 </div>
-                <div class="les-plus-populaires">les-plus-populaires</div>
+    
+                <div class="les-plus-populaires">
 
+
+
+
+
+    
                 </div>
-
             </div>
 
             <div classe="activiter-a-marseille">
 
+
+
+
+
+
+
             </div>
 
         </main>
+
+    
+    
+
+    
+
+    
+
+    
+
     </div>
 
+    
+    
+
     <footer>
-        
+        <div class="conteneur-footer">
+            <div class="footer-item">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générale de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
 
+            <div class="footer-item">
+                <h3>Nos hébergement</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hotel</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
-
-
-
-
-
-
-
 </body>
-
 </html>
