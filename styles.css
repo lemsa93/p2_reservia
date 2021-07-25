@@ -1,0 +1,83 @@
+body{
+    font-family: "0pen sans",sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*barre de navigation*/
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+    
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+
+}
+/*fin de la barre de navigation*/
+/*header*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+/*fin du header*/
+/*section principale*/
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*toutes les cartes*/
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.card .card img{
+width: 350px;
+}
+/*fin de toute les cartes*/
+/*fin de section pricipale*/
