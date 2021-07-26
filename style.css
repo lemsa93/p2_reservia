@@ -210,8 +210,6 @@ footer {
     height: 15rem;
 }
 
-.footer-item {}
-
 .footer-item h3 {
     font-size: 15px;
     padding-top: 3rem;
@@ -222,8 +220,6 @@ footer {
     font-size: 15px;
     list-style: none;
 }
-
-main {}
 
 /*tourisme a marseille*/
 
@@ -249,12 +245,12 @@ main {}
 
 /* hébergements à marseille */
 
-.hebergement-a-marseille h2{
+.hebergement-a-marseille h2 {
     font-size: 15px;
     padding: 15px 15px 15px 15px;
 }
 
-.hebergement-cartes{
+.hebergement-cartes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -263,7 +259,7 @@ main {}
     margin: 0 auto;
 }
 
-.hebergement-carte-item a{
+.hebergement-carte-item a {
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -272,13 +268,14 @@ main {}
     border-radius: 1.5rem;
     padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
-.hebergement-carte-item img{
+
+.hebergement-carte-item img {
     height: 6rem;
     object-fit: cover;
     border-radius: 1.5rem 1.5rem 0 0;
 }
 
-.hebergemnt-carte-contenu{
+.hebergemnt-carte-contenu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -287,7 +284,8 @@ main {}
 }
 
 /*les plus populaires*/
-.les-plus-populaires-header{
+
+.les-plus-populaires-header {
     /*on fait du flex, on met en ligne ,on space-between*/
     display: flex;
     justify-content: space-between;
@@ -295,66 +293,217 @@ main {}
     flex-direction: row;
     padding: 1.5rem 2rem 1rem 1.5rem;
 }
-.les-plus-populaires-header h2{
+
+.les-plus-populaires-header h2 {
     font-size: 15px;
 }
-.les-plus-populaires-header i{
+
+.les-plus-populaires-header i {
     font-size: 15px;
 }
-.populaire-cartes{
+
+.populaire-cartes {
     /* display grid ; grid-template-columns: ;  grid-template-rows: ; grid-gap: ;*/
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto; /* il y a autant de cartes que de ligne*/
+    grid-template-rows: auto;
+    /* il y a autant de cartes que de ligne*/
     grid-gap: 30px;
     width: 80%;
-    margin: auto; /* cela va nous servir à centrer les cartes au milieu sans valeur en dure*/
+    margin: auto;
+    /* cela va nous servir à centrer les cartes au milieu sans valeur en dure*/
     padding-top: 20px;
 }
-.populaire-carte-item a{
+
+.populaire-carte-item a {
     /* display flex, on met en ligne   box-shadow background-color ; borderradius */
     display: flex;
     flex-direction: row;
-    box-shadow: 0px 0px 10px #a1a1a1 ;
+    box-shadow: 0px 0px 10px #a1a1a1;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     background-color: white;
     padding: 5px;
 }
 
-.populaire-carte-item img{
+.populaire-carte-item img {
     height: 5rem;
     max-width: 35%;
     min-width: 35%;
-    object-fit: cover; /* evite que les images ne s'écrase */
+    object-fit: cover;
+    /* evite que les images ne s'écrase */
     border-radius: 1.5rem 0px 0px 1.5rem;
-
 }
-.populaire-carte-header-contenu{
+
+.populaire-carte-header-contenu {
     display: flex;
     flex-direction: column;
 }
 
-.populaire-carte-contenu{
+.populaire-carte-contenu {
     /* flex; column; space-between*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 15px 15px 15px 20px;
-
 }
 
-.fa-star{
+.fa-star {
     color: #0065fc;
 }
 
-.star-grey{
+.star-grey {
     color: #b1b1b1;
 }
 
-
-.populaire-carte-contenu h3{
+.populaire-carte-contenu h3 {
     font-size: 20px;
 }
-.populaire-carte-contenu p{
+
+.populaire-carte-contenu p {
     font-size: 20px;
+}
+
+/*activites a marseille*/
+
+.title_activities {
+    margin-top: 60px;
+}
+
+.marseille_activities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marseille_activities .vp {
+    text-decoration-line: none;
+    color: black;
+    width: 22%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.marseille_activities h4 {
+    padding-left: 10px;
+}
+
+.vieux_port img {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.pomegues_frioul {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pomegues_frioul .po {
+    width: 100%;
+    height: 55%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.pomegues {
+    height: 100%;
+}
+
+.pomegues_frioul .fri {
+    width: 100%;
+    height: 35%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.frioul {
+    height: 100%;
+}
+
+.pomegues img {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.frioul img {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.cal {
+    width: 22%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.calanques img {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.notredame_longchamp {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notredame_longchamp .nd {
+    width: 100%;
+    height: 55%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.notredame {
+    height: 100%;
+}
+
+.notredame_longchamp .lo {
+    width: 100%;
+    height: 35%;
+    text-decoration-line: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #F2F2F2;
+    border: 2px solid #F2F2F2;
+}
+
+.longchamp {
+    height: 100%;
+}
+
+.notredame img {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.longchamp img {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
